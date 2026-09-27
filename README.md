@@ -1,8 +1,10 @@
-<p align="center"><img src="assets/banner.svg" alt="Network Intelligence — Relationships, opportunities and content in one self-hosted workspace" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Network Intelligence" width="100%"></p>
 
-<p align="center"><b>Status:</b> Pilot, self-hosted &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a> &nbsp;·&nbsp; <b>Source:</b> private</p>
+<p align="center"><b>Relationships, opportunities and content in one self-hosted workspace</b></p>
 
-> **This is a showcase, not the code.** The source is private because it is built to hold personal contact data. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
+<p align="center"><b>Status:</b> Pilot, self-hosted &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a></p>
+
+> Case study only: the source is private because it is built to hold personal contact data. Walkthrough on request.
 
 ## The problem
 
@@ -21,13 +23,15 @@ A solo consultant's network lives across LinkedIn, X and email, and the follow-u
 How the work flows:
 
 ```mermaid
-flowchart LR
-  A[LinkedIn, X, email] --> B[(Local contact store)]
-  B --> C[Opportunities and follow-ups]
-  B --> D[AI-assisted drafts]
+flowchart TD
+  accTitle: How Network Intelligence handles contacts and content
+  accDescr: Contacts from LinkedIn, X and email go into a local store, which feeds follow-ups and AI-assisted drafts; you review every draft, and only approved ones are scheduled.
+  A[Contacts] --> B[(Local store)]
+  B --> C[Follow-ups]
+  B --> D[AI drafts]
   D --> E{You review}
-  E -- approve --> F[Scheduled to social channels]
-  E -- edit or discard --> D
+  E -- approve --> F[Scheduled]
+  E -- edit --> D
 ```
 
 <sub>Screens are not shown because the app is built to hold personal contact data.</sub>
@@ -52,7 +56,7 @@ Next.js · React · TypeScript · local database · Claude for drafting · a soc
 
 - [ImpactAnchor Reels](https://github.com/Mohanad1st/impactanchor-reels-showcase) — Recorded sessions in; scored, subtitled, scheduled short videos out
 - [Impact Anchor — consulting site](https://github.com/Mohanad1st/impact-anchor-site-showcase) — From AI overwhelm to a working adoption plan, for mission-driven teams
-- [AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) — A free, bilingual course that takes you from first definitions to a governance plan
+- [AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) — A free course that takes you from first definitions to a working AI governance plan
 - [Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase) — Interactive, bilingual, offline-ready learning for workshops and training programmes
 
 ---
