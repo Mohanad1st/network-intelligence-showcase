@@ -2,7 +2,7 @@
 
 <p align="center"><b>Status:</b> Pilot, self-hosted &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a> &nbsp;·&nbsp; <b>Source:</b> private</p>
 
-> **This is a showcase, not the code.** The source is private because the system handles real operations for real people. Nothing here is needed to run it, and nothing here reveals how it is secured. A live walkthrough is available on request.
+> **This is a showcase, not the code.** The source is private because it is built to hold personal contact data. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
 
 ## The problem
 
@@ -13,7 +13,7 @@ A solo consultant's network lives across LinkedIn, X and email, and the follow-u
 - One contact list across LinkedIn, X and email, with duplicates merged
 - Opportunity tracking and reminders to re-engage past contacts
 - Draft, review and approve posts, threads and newsletters in a consistent voice
-- Schedule approved content to social channels and sync back what was published
+- Schedule approved content to social channels (built and tested, not yet used live)
 - A workflow hub with run history, and a chat assistant over your own data
 
 ## See it
@@ -30,7 +30,7 @@ flowchart LR
   E -- edit or discard --> D
 ```
 
-<sub>Screens are not shown because the app holds personal contact data.</sub>
+<sub>Screens are not shown because the app is built to hold personal contact data.</sub>
 
 ## Built with
 
@@ -53,7 +53,7 @@ Next.js · React · TypeScript · local database · Claude for drafting · a soc
 - [ImpactAnchor Reels](https://github.com/Mohanad1st/impactanchor-reels-showcase) — Recorded sessions in; scored, subtitled, scheduled short videos out
 - [Impact Anchor — consulting site](https://github.com/Mohanad1st/impact-anchor-site-showcase) — From AI overwhelm to a working adoption plan, for mission-driven teams
 - [AI Governance Roadmap](https://github.com/Mohanad1st/ai-governance-roadmap-showcase) — A free, bilingual course that takes you from first definitions to a governance plan
-- [Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase) — Interactive learning your teams actually finish — white-label, bilingual, offline-ready
+- [Anchor Learning Hub](https://github.com/Mohanad1st/anchor-learning-hub-showcase) — Interactive, bilingual, offline-ready learning for workshops and training programmes
 
 ---
 
